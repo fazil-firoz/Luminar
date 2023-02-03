@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ccb632c257.js" crossorigin="anonymous"></script>
+
+    <style>
+        #maincard {
+            transition: 0.5s ease-in-out;
+        }
+
+        #maincard:hover {
+            box-shadow: 0 0 20px rgba(117, 83, 83, 0.877);
+            transform: scale(1.01);
+        }
+
+        .card {
+            background-color: white;
+            transition: 0.5s ease-in-out;
+            border: 1px solid white;
+            height: 450px;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(117, 83, 83, 0.877);
+            /* transform:rotate(-1deg);   */
+            transform: scale(2.5cm);
+        }
+
+        #new1,
+        #new2,
+        #new3 {
+            background-color: #5e068a;
+            border: none;
+            height: 40px;
+            width: 100px;
+
+        }
+
+        .button1 {
+            text-decoration: none;
+            color: white;
+            font: weight 700px;
+        }
+        #lbtn:hover{
+            background-color: #5e068a;
+            color:white;
+        }
+        #lbtn{
+            color:#5e068a;
+            background-color: white;
+        }
+        .nav-link,.navbar-brand{
+    color:#2d3e50;
+    display: block;
+    font-size: 12px;
+    font-weight: 650;
+    line-height: 10px;
+    text-decoration: none;
+    
+
+}
+.nav-link{
+    margin-left: 30px;
+}
+.navbar-brand{
+    margin-left: 200px;
+}
+.nav-link:hover{
+    color:#5e068a;t;
+}
+.navbar-brand:hover{
+    color:#5e068a;;
+}
+.carousel-item{
+    width: 1310px;
+    height: 500px;
+}
+h5{
+    font-size: 52px;
+    line-height: 52px;
+    animation: 800ms ease-in-out 0s normal none 1 running slideInUp;
+    
+    
+}
+.carousel-caption {
+    position: absolute;
+    top: 114px;
+    left:-200px;
+ }
+ .btn{
+    position:absolute;
+    top: 351px;
+    left: 200px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    background: #5e068a none repeat scroll 0 0;
+    color: #ffffff;
+ }
+
+#enquiry{
+    position:absolute;
+    top: 651px;
+    left: 100px;
+
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- As a link -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid ms-1" style="background-color: #5e068a;">
+            <!-- <i class='fas fa-phone text-white' style='font-size:20px' ></i> -->
+            <h5 style="font-size: medium;color: white;font-size: small; ">+91 80 86 651 651 Contact @
+                Luminartechnolab.com</h5>
+            <a class="navbar-brand text-white" href="#">Have any questions? +91 80 86 651 651</a>
+        </div>
+    </nav>
+
+
+
+    <!-- first nav close -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <img src="./images/luminar.jpeg" style="height: 70px; width: 280px; margin-left: 30px" alt="">
+            <a class="navbar-brand" href="#">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OUR PLACEMENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <button type="button" class="btn btn-primary btn-lg">VIEW COURSES</button>
+
+                <img src="http://web.archive.org/web/20210818103752im_/https://www.luminartechnolab.com/img/frontend/slider/5.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5>kerala's No.1 IT Finishing school <br> 100% Placement Assistance</h5>
+                    <p>We LUMINAR TECHOLAB offers best software training and placement in emerging <br> Technologies
+                        like Big Data,Data science,Machine Learning,PYTHON, software Testing.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <button type="button" class="btn btn-primary btn-lg">VIEW COURSES</button>
+
+                <img src="http://web.archive.org/web/20210818104814im_/https://www.luminartechnolab.com/img/frontend/slider/6.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Data science,ML & AI <br> Bigdata-hadoop & spark <br> Python Data science</h5>
+                    <p>We LUMINAR TECHOLAB offers best software training and placement in emerging <br> Technologies
+                        like Big Data,Hadoop,spark,Data science,Machine Learning,Deep learning and AI</p>
+
+                </div>
+
+
+
+            </div>
+
+
+            <!-- <div class="carousel-item" data-bs-interval="100">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.oC0sGUEO7Hypkkb_rAErUQHaEU&pid=Api&P=0" class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--  modal   -->
+
+    <!-- Button trigger modal -->
+    <button id="enquiry" type="button" class="btn btn-primary border-circle " data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        Enquiry
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Get training quote for free</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text " style="border: none" ; placeholder="Name" class="form-control">
+                    <hr>
+                    <input type="text" style="border: none" ; placeholder="Email" class="form-control">
+                    <hr>
+                    <input type="text" style="border: none;" placeholder="Phone" class="form-control">
+                    <hr>
+                    <select name="" id="" class="form-control" style="border: none;">
+                        <option value="">Select course intrested in</option>
+                        <option value="">Python</option>
+                        <option value="">Flutter</option>
+                        <option value="">java</option>
+                    </select>
+                    <hr>
+                    <input type="text" placeholder="City" style="border: none;" class="form-control">
+                    <hr>
+
+                    <textarea name="" id="" class="form-control" cols="30" rows="3" placeholder="Comment"
+                        style="border: none;"></textarea>
+                    <hr>
+                </div>
+                <div class="modal-footer mb-5">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+                <h3 style="color: #5e068a;">Luminar Technolab Pvt Ltd</h3>
+                <p style="color: #b143e8;">CIN: U80220KL2021PTC071578</p>
+                <p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                    advanced
+                    level software training to Students and by helping them to get placed in IT companies. We are a team
+                    of
+                    IT professionals who have experience in IT sector for more than 15 plus years. Our freshers career
+                    foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python
+                    Training,
+                    Software Testing TrainingSelenium Training in Cochin, Kerala are designed in such a way to match
+                    with
+                    the current industry requirements. Our Vision is to provide 100% placements to students those who
+                    enroll
+                    with us for our specialized courses.</p>
+
+                <button class="rounded-pill text-white mt-4"
+                    style="background-color: #5e068a; border: none; font-size: 14px; height: 60px; width: 150px; font-weight: 700;"
+                    fdprocessedid="8tbeih">LEARN MORE</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="./images/baggirl.jpg" style="width: 100%\;" alt="">
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; height: 1191px; background-color: var(--bs-secondary-bg)">
+        <h4 style="text-align: center; color:#5e068a; padding-top: 60px;">OUR<span style="color:#b143e8;">
+                COURSES</span></h4>
+        <div class="container mt-5 " id="maincard">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+                    <img src="./images/redgirl.jpg" style="width: 100%; height: 250px; background-position: center;"
+                        alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+                    <h2 style="color: #5e068a; padding: left 5px;px;"> Data Science - ML - AI - Big Data with Cloud <br>
+                        & Tableau</h2>
+                    <p style="line-height: 1.2;">Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics,
+                        Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial Intelligence,
+                        Tableau, AWS Cloud.</p>
+                    <p>📅 Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am) <br>
+
+                        ⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day <br>
+
+                        🧑‍🏫 Course Fees: <button style="border: none;"> <a href=""> View More</a></p></button>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- caaaaaaaaaaaaaaaaaaaaaaarrrrrrrrrrrrrrdddddddddddddssssssssssssssss -->
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+
+                    <div class="card" style="width: 20rem;">
+
+                        <img src="./images/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 18px; line-height: 25px; color:#5e068a;">Python
+                                Django
+                                - Angular - Fullstack <br>Web devolopment expert</h5>
+                            <p class="card-text " style="font-size: 14px; font-style: normal;color:  #414141;">Core
+                                Python,
+                                Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git,
+                                Angul...</p>
+                            <button id="new1"><a href="#" class="button1 btn-primary">View More</a></button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+
+                    <div class="card" style="width: 20rem;">
+
+                        <img src="./images/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 18px; line-height: 25px; color:#5e068a;">Software
+                                Testing</h5>
+                            <p class="card-text" style="font-size: 14px; font-style: normal;color:  #414141;">HTML, CSS,
+                                Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS, Angular, React.js
+                                and
+                                Node....</p>
+                            <button id="new2"><a href="#" class="button1 btn-primary">View More</a></button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+
+                    <div class="card" style="width: 20rem;">
+
+                        <img src="./images/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 18px; line-height: 25px; color:#5e068a;">MERN stack
+                                Web
+                                devolopment <br> Expert - Angular & React</h5>
+                            <p class="card-text" style="font-size: 14px; font-style: normal;color:  #414141;">Some quick
+                                example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button id="new3"><a href="#" class="button1 btn-primary">View More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: 45%;margin-bottom: 50px;"><button id="lbtn" style=" border-color: #5e068a;height: 40px;border-radius: 20px;width:150px;">View all course</button></div>
+            </div>
+
+
+</body>
+
+</html>

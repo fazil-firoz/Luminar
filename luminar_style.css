@@ -1,0 +1,57 @@
+.nav-link,.navbar-brand{
+    color:#2d3e50;
+    display: block;
+    font-size: 12px;
+    font-weight: 650;
+    line-height: 10px;
+    text-decoration: none;
+    
+
+}
+.nav-link{
+    margin-left: 30px;
+}
+.navbar-brand{
+    margin-left: 200px;
+}
+.nav-link:hover{
+    color:#5e068a;t;
+}
+.navbar-brand:hover{
+    color:#5e068a;;
+}
+.carousel-item{
+    width: 1310px;
+    height: 500px;
+}
+h5{
+    font-size: 52px;
+    line-height: 52px;
+    animation: 800ms ease-in-out 0s normal none 1 running slideInUp;
+    
+    
+}
+.carousel-caption {
+    position: absolute;
+    top: 114px;
+    left:-200px;
+ }
+ .btn{
+    position:absolute;
+    top: 351px;
+    left: 200px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    background: #5e068a none repeat scroll 0 0;
+    color: #ffffff;
+ }
+
+#enquiry{
+    position:absolute;
+    top: 651px;
+    left: 100px;
+
+}
